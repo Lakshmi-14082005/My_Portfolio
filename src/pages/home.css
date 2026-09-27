@@ -1,0 +1,179 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    margin-top: 20px;
+    text-align: left;
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+    flex-wrap: wrap;
+}
+
+.portfolio-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-img img {
+    height: 380px;
+    width: 380px;
+    max-width: 85vw;
+    max-height: 85vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #2563eb;
+    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.35);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-img img:hover {
+    transform: scale(1.03);
+}
+
+.introduction {
+    max-width: 680px;
+    text-align: left;
+    padding: 1rem;
+    color: #ffffff;
+}
+
+.introduction h1,
+.name-heading {
+    font-size: clamp(1.65rem, 3.8vw, 3.2rem);
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0.5rem 0 1rem;
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+.introduction h2 {
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    font-weight: 600;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 0.75rem;
+}
+
+.introduction p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.home-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.cta-btn-primary {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.25s ease;
+    border: 2px solid #2563eb;
+}
+
+.cta-btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+}
+
+.cta-btn-secondary {
+    background-color: transparent;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.25s ease;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+}
+
+.cta-btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: white;
+    transform: translateY(-2px);
+}
+
+.profile-links {
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+.profile-links a {
+    color: #ffffff;
+    transition: all 0.25s ease;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.12);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-links a:hover {
+    color: #60a5fa;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 900px) {
+    .home-container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+        padding: 1.5rem 1rem;
+    }
+
+    .introduction {
+        text-align: center;
+    }
+
+    .introduction h1,
+    .name-heading {
+        white-space: nowrap;
+        font-size: clamp(1.3rem, 5.2vw, 2.2rem);
+    }
+
+    .home-cta {
+        justify-content: center;
+    }
+
+    .profile-links {
+        justify-content: center;
+    }
+
+    .portfolio-img img {
+        height: 280px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .introduction h1,
+    .name-heading {
+        font-size: clamp(1.15rem, 5.4vw, 1.65rem);
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,300 @@
+.about-container {
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+
+.about-text p {
+    text-align: justify;
+}
+
+.about-container h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.resume-container {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.resume-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #ffffff;
+    color: #1e40af;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.resume-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    background: #eff6ff;
+}
+
+.resume-view-btn {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.resume-view-btn:hover {
+    background: #ffffff;
+    color: #1e40af;
+}
+
+.book-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tab-btn.active,
+.tab-btn:hover {
+    background: white;
+    color: #1e40af;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.book-container {
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    height: 320px;
+    padding: 5px;
+    margin: 0 auto 30px auto;
+}
+
+
+.education-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.6s ease, z-index 0.6s ease;
+}
+
+
+.education-card.active {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+    z-index: 3;
+}
+
+
+.education-card.incoming {
+    transform: translate(15px, 15px) scale(0.95);
+    opacity: 0.6;
+    z-index: 2;
+}
+
+
+.education-card.incoming~.incoming {
+    transform: translate(30px, 30px) scale(0.90);
+    opacity: 0.3;
+    z-index: 1;
+}
+
+
+.education-card.outgoing {
+    transform: translate(-100px, 10px) rotate(-5deg) scale(0.9);
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
+.education-card.active:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.journey-text p {
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+.hobbies-section {
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.hobbies-heading {
+    text-align: center;
+    color: white;
+    margin-bottom: 35px;
+}
+
+/* Horizontal flex alignment */
+.hobbies-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /* Keeps it responsive on small viewports */
+}
+
+/* Individual Card Styling */
+.hobby-card {
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    border-radius: 16px;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+    /* Pop transition to match your other layouts */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hobby-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.hobby-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hobby-card h3 {
+    font-size: 1.4rem;
+    color: #1e40af;
+    /* Deep contrast blue */
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.hobby-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #475569;
+}
+
+.languages-section {
+    padding: 40px 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    /* Gives some breathing room at the bottom of the page */
+}
+
+.languages-heading {
+    text-align: center;
+    color: white;
+    margin-bottom: 35px;
+}
+
+/* Flex layout matching your hobbies section alignment */
+.languages-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Individual Language Card */
+.language-card {
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    border-radius: 16px;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.language-flag {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.language-card h3 {
+    font-size: 1.4rem;
+    color: #1e40af;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+/* Clean Proficiency Pills */
+.lang-proficiency {
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 12px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.lang-proficiency.native {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.lang-proficiency.fluent {
+    background-color: #e0f2fe;
+    color: #0369a1;
+}
+
+.lang-proficiency.conversational {
+    background-color: #fef3c7;
+    color: #b45309;
+}
+
+.language-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #475569;
+}

@@ -1,0 +1,146 @@
+.contact-container {
+    padding: 60px 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.contact-heading {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact-subtitle {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-size: 1.1rem;
+}
+
+/* Flexible grid layout for forms and links */
+.contact-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-info-cards,
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Info Cards Layout */
+.contact-info-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+.connect-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.connect-card:hover {
+    transform: translateX(8px);
+    /* Slides smoothly to the right on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.connect-icon {
+    font-size: 2rem;
+}
+
+.connect-card h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #1e40af;
+}
+
+.connect-card p {
+    margin: 4px 0 0 0;
+    color: #64748b;
+    font-size: 0.95rem;
+}
+
+/* Interactive Form Styling */
+.contact-form {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: #f8fafc;
+    transition: border-color 0.2s ease;
+    color: black;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #1e40af;
+    background: #fff;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #1e40af;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.success-banner {
+    background-color: #ecfdf5;
+    border: 1px solid #10b981;
+    color: #065f46;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
