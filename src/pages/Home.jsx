@@ -1,10 +1,13 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaLinkedin, FaGithub, FaEnvelope, FaEye } from 'react-icons/fa';
 import profile from '../assets/profile.jpeg';
-import { viewResume } from '../utils/downloadResume';
+import ResumeModal from '../components/ResumeModal';
 import './home.css';
 
 const Home = () => {
+    const [isResumeOpen, setIsResumeOpen] = useState(false);
+
     return (
         <div className="home-container">
             <div className="portfolio-img">
@@ -23,9 +26,9 @@ const Home = () => {
                     </Link>
                     <button
                         type="button"
-                        onClick={viewResume}
+                        onClick={() => setIsResumeOpen(true)}
                         className="cta-btn-secondary cursor-pointer"
-                        title="View resume in new tab"
+                        title="View resume"
                     >
                         <FaEye className="inline mr-1 text-sm" /> View Resume
                     </button>
@@ -55,6 +58,12 @@ const Home = () => {
                     </a>
                 </div>
             </div>
+
+            {/* Resume Modal */}
+            <ResumeModal
+                isOpen={isResumeOpen}
+                onClose={() => setIsResumeOpen(false)}
+            />
         </div>
     );
 };

@@ -3,11 +3,12 @@ import './about.css';
 import mist from '../assets/mist.jpg';
 import inter from '../assets/inter.png';
 import school from '../assets/school.png';
-import { viewResume } from '../utils/downloadResume';
 import { FaEye } from 'react-icons/fa';
+import ResumeModal from '../components/ResumeModal';
 
 const About = () => {
     const [activeIndex, setActiveIndex] = useState(0);
+    const [isResumeOpen, setIsResumeOpen] = useState(false);
 
     const educationData = [
         {
@@ -59,9 +60,9 @@ const About = () => {
                 <div className="resume-container">
                     <button
                         type="button"
-                        onClick={viewResume}
+                        onClick={() => setIsResumeOpen(true)}
                         className="resume-btn cursor-pointer"
-                        title="Open resume in new tab"
+                        title="View resume"
                     >
                         <FaEye /> View Resume
                     </button>
@@ -156,6 +157,12 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Resume Modal */}
+            <ResumeModal
+                isOpen={isResumeOpen}
+                onClose={() => setIsResumeOpen(false)}
+            />
         </div>
     );
 };

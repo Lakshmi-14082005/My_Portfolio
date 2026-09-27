@@ -11,12 +11,12 @@ All live demo links below are verified and accessible publicly:
 | Project | Live Demo | Source Code Repository |
 | :--- | :--- | :--- |
 | **Mist-Club (SAC Collegiate Network)** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/Mist-Club/) | [GitHub Repository](https://github.com/Lakshmi-14082005/Mist-Club) |
+| **LogicCode (Aptitude & Reasoning)** | [🌐 View Live Demo](https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app) | [GitHub Repository](https://github.com/Lakshmi-14082005/LogicCode_12) |
 | **NoTo - Student Notes & Material** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/NoTo-website/) | [GitHub Repository](https://github.com/Lakshmi-14082005/NoTo-website) |
 | **Student To-Do List Application** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/Student_To_Do_app/) | [GitHub Repository](https://github.com/Lakshmi-14082005/Student_To_Do_app) |
 | **Calculator App with React** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/Calculator-App-with-React/) | [GitHub Repository](https://github.com/Lakshmi-14082005/Calculator-App-with-React) |
-| **E-Commerce Web Application** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/E-commerce-website/) | [GitHub Repository](https://github.com/Lakshmi-14082005/E-commerce-website) |
-| **LogicCode (Aptitude & Reasoning)** | *In Development* | [GitHub Repository](https://github.com/Lakshmi-14082005/LogicCode_12) |
-| **Portfolio Source Code** | [Portfolio Showcase](https://github.com/Lakshmi-14082005/My_Portfolio) | [GitHub Repository](https://github.com/Lakshmi-14082005/My_Portfolio) |
+| **College Canteen Survey** | *In Development (No Demo Link)* | *Phase 1 Completed • Active Development* |
+| **Portfolio Source Code** | [Portfolio Showcase](https://lakshmi-14082005.github.io/My-Portfolio/) | [GitHub Repository](https://github.com/Lakshmi-14082005/My_Portfolio) |
 
 ---
 
@@ -28,30 +28,31 @@ All live demo links below are verified and accessible publicly:
 - **Live Demo:** [https://lakshmi-14082005.github.io/Mist-Club/](https://lakshmi-14082005.github.io/Mist-Club/)
 - **Repository:** [https://github.com/Lakshmi-14082005/Mist-Club](https://github.com/Lakshmi-14082005/Mist-Club)
 
-### 2. NoTo - Student Notes & Resources
+### 2. LogicCode - Aptitude & Reasoning Mastery Platform
+- **Description:** A disciplined, minimalist EdTech platform designed for focused preparation. Sharpen problem-solving skills with timed practice drills, tiered difficulty levels, curated formula cheat sheets, and real-time performance analytics.
+- **Tech Stack:** React 19, TypeScript, Node.js, Express, Vite, Tailwind CSS, Motion, Lucide React
+- **Live Demo:** [https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app](https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app)
+- **Repository:** [https://github.com/Lakshmi-14082005/LogicCode_12](https://github.com/Lakshmi-14082005/LogicCode_12)
+
+### 3. NoTo - Student Notes & Resources
 - **Description:** A centralized resource hub providing college students with semester-wise lecture notes, previous question papers, and study reference materials.
 - **Live Demo:** [https://lakshmi-14082005.github.io/NoTo-website/](https://lakshmi-14082005.github.io/NoTo-website/)
 - **Repository:** [https://github.com/Lakshmi-14082005/NoTo-website](https://github.com/Lakshmi-14082005/NoTo-website)
 
-### 3. Student To-Do List Application
+### 4. Student To-Do List Application
 - **Description:** Productivity application tailored for students to track coursework, organize tasks, monitor assignment deadlines, and manage daily study schedules.
 - **Live Demo:** [https://lakshmi-14082005.github.io/Student_To_Do_app/](https://lakshmi-14082005.github.io/Student_To_Do_app/)
 - **Repository:** [https://github.com/Lakshmi-14082005/Student_To_Do_app](https://github.com/Lakshmi-14082005/Student_To_Do_app)
 
-### 4. Calculator App with React
+### 5. Calculator App with React
 - **Description:** A clean, responsive web calculator built with React state hooks, component hierarchy, formula parsing, and responsive keypad mechanics.
 - **Live Demo:** [https://lakshmi-14082005.github.io/Calculator-App-with-React/](https://lakshmi-14082005.github.io/Calculator-App-with-React/)
 - **Repository:** [https://github.com/Lakshmi-14082005/Calculator-App-with-React](https://github.com/Lakshmi-14082005/Calculator-App-with-React)
 
-### 5. E-Commerce Website
-- **Description:** An interactive e-commerce shopping platform featuring product catalog, cart management, and seamless modern user interface.
-- **Live Demo:** [https://lakshmi-14082005.github.io/E-commerce-website/](https://lakshmi-14082005.github.io/E-commerce-website/)
-- **Repository:** [https://github.com/Lakshmi-14082005/E-commerce-website](https://github.com/Lakshmi-14082005/E-commerce-website)
-
-### 6. LogicCode
-- **Description:** A disciplined aptitude and algorithmic reasoning platform featuring tiered difficulty levels, timed problem-solving sets, and performance analytics.
-- **Tech Stack:** React 19, TypeScript, Node.js, Express, Vite, Tailwind CSS, Motion
-- **Repository:** [https://github.com/Lakshmi-14082005/LogicCode_12](https://github.com/Lakshmi-14082005/LogicCode_12)
+### 6. College Canteen Survey
+- **Description:** A comprehensive web application for gathering and analyzing real-time student dining feedback. Phase 1 delivers a secure, responsive authentication flow and onboarding UI.
+- **Tech Stack:** React JS, Auth System, Frontend Logic
+- **Status:** *Phase 1 Completed • In Active Development (No Live Demo Link)*
 
 ---
 
@@ -65,14 +66,14 @@ All live demo links below are verified and accessible publicly:
 
 ## 🎓 Education
 
-- **B.Tech in Computer Science and Engineering** (2023–2027)  
-  *Mother Teresa Institute of Science and Technology, JNTUH*  
+- **B.Tech in Computer Science and Engineering** (2023–2027)
+  *Mother Teresa Institute of Science and Technology, JNTUH*
   **CGPA:** 8.41
-- **Intermediate (MPC)** (2020–2022)  
-  *Govt Girls Jr College, Sathupally*  
+- **Intermediate (MPC)** (2020–2022)
+  *Govt Girls Jr College, Sathupally*
   **Percentage:** 87.3%
-- **Secondary School Certificate (SSC)** (2020)  
-  *Govt Girls High School, Sathupally*  
+- **Secondary School Certificate (SSC)** (2020)
+  *Govt Girls High School, Sathupally*
   **CGPA:** 9.8
 
 ---
@@ -81,7 +82,7 @@ All live demo links below are verified and accessible publicly:
 
 The updated resume is bundled directly with this application and can be viewed directly in the web portfolio:
 - **Location:** `public/Resume.pdf` (also available as `public/Lakshmi_Prasanna_Resume.pdf`)
-- Integrated with the **View Resume** button on the Home and About pages.
+- Integrated with the **View Resume** button on the Home and About pages featuring an interactive in-app viewer modal.
 
 ---
 
