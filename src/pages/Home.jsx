@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaGithub, FaEnvelope, FaDownload, FaEye } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaEye } from 'react-icons/fa';
 import profile from '../assets/profile.jpeg';
-import { downloadResume, viewResume } from '../utils/downloadResume';
+import { viewResume } from '../utils/downloadResume';
 import './home.css';
 
 const Home = () => {
@@ -23,23 +23,12 @@ const Home = () => {
                     </Link>
                     <button
                         type="button"
-                        onClick={() => downloadResume('Lakshmi_Prasanna_Thota_Resume.pdf')}
-                        className="cta-btn-secondary cursor-pointer"
-                        title="Download verified resume PDF"
-                    >
-                        <FaDownload className="inline mr-1 text-sm" /> Download Resume
-                    </button>
-                    <button
-                        type="button"
                         onClick={viewResume}
                         className="cta-btn-secondary cursor-pointer"
                         title="View resume in new tab"
                     >
                         <FaEye className="inline mr-1 text-sm" /> View Resume
                     </button>
-                    <Link to="/contact" className="cta-btn-secondary">
-                        💬 Contact Me
-                    </Link>
                 </div>
                 <div className="profile-links">
                     <a

@@ -269,7 +269,7 @@ const Projects = () => {
                                 <FaGithub /> GitHub
                             </a>
                             <a
-                                href="https://ais-pre-xhycrgknrskqapukzqhyrc-837519493297.asia-east1.run.app"
+                                href="https://lakshmi-14082005.github.io/Mist-Club/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="demo-btn"
@@ -313,7 +313,7 @@ const Projects = () => {
                         </p>
                         <div className="project-links">
                             <a
-                                href="https://github.com/Lakshmi-14082005/LogicCode"
+                                href="https://github.com/Lakshmi-14082005/LogicCode_12"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="github-btn"

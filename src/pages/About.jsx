@@ -3,8 +3,8 @@ import './about.css';
 import mist from '../assets/mist.jpg';
 import inter from '../assets/inter.png';
 import school from '../assets/school.png';
-import { downloadResume, viewResume } from '../utils/downloadResume';
-import { FaDownload, FaEye } from 'react-icons/fa';
+import { viewResume } from '../utils/downloadResume';
+import { FaEye } from 'react-icons/fa';
 
 const About = () => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -19,7 +19,7 @@ const About = () => {
                     <p><strong>College:</strong> Mother Teresa Institute of Science and Technology</p>
                     <p><strong>Course:</strong> Btech</p>
                     <p><strong>Branch:</strong> Computer Science and Engineering</p>
-                    <p><strong>CGPA:</strong> 8.67</p>
+                    <p><strong>CGPA:</strong> 8.41</p>
                 </div>
             )
         },
@@ -29,7 +29,7 @@ const About = () => {
             img: inter,
             details: (
                 <div className="journey-text text-xl">
-                    <p><strong>College:</strong> Govt Jr Girls College, Sathupally.</p>
+                    <p><strong>College:</strong> Govt Girls Jr College, Sathupally.</p>
                     <p><strong>Course:</strong> Intermediate</p>
                     <p><strong>Branch:</strong> MPC </p>
                     <p><strong>Percentage:</strong> 87.3%</p>
@@ -42,9 +42,9 @@ const About = () => {
             img: school,
             details: (
                 <div className="journey-text text-xl">
-                    <p><strong>School:</strong> Z P G H School, Sathupally.</p>
+                    <p><strong>School:</strong> Govt Girls High School, Sathupally.</p>
                     <p><strong>Course:</strong> SSC</p>
-                    <p><strong>Percentage:</strong> 98%</p>
+                    <p><strong>CGPA:</strong> 9.8</p>
                 </div>
             )
         }
@@ -59,16 +59,8 @@ const About = () => {
                 <div className="resume-container">
                     <button
                         type="button"
-                        onClick={() => downloadResume('Lakshmi_Prasanna_Thota_Resume.pdf')}
-                        className="resume-btn cursor-pointer"
-                        title="Download verified resume PDF"
-                    >
-                        <FaDownload /> Download Resume
-                    </button>
-                    <button
-                        type="button"
                         onClick={viewResume}
-                        className="resume-btn resume-view-btn cursor-pointer"
+                        className="resume-btn cursor-pointer"
                         title="Open resume in new tab"
                     >
                         <FaEye /> View Resume
