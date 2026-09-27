@@ -35,7 +35,7 @@ function createResume(outputPath) {
         { align: 'center' }
     );
     doc.text(
-        'www.linkedin.com/in/lakshmi-prasanna-thota-88a28740 | https://github.com/Lakshmi-14082005',
+        'www.linkedin.com/in/lakshmi-prasanna-thota-88a28740b | https://github.com/Lakshmi-14082005',
         { align: 'center' }
     );
 

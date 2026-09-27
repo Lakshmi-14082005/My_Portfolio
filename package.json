@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://lakshmi-14082005.github.io/My-Portfolio/",
+  "homepage": "https://lakshmi-14082005.github.io/My_Portfolio/",
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3000",
     "build": "vite build",

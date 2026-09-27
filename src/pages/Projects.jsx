@@ -5,7 +5,7 @@ import college from '../assets/College.mp4';
 import ToDo from '../assets/Student-ToDo List.mp4';
 import logicCodeImg from '../assets/images/logic_code_preview_1789626825100.jpg';
 import mistClubImg from '../assets/images/mist_club_preview_1789626840128.jpg';
-import { FaGithub, FaExternalLinkAlt, FaTools, FaUsers, FaCode } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaTools, FaUsers, FaCode, FaShoppingCart } from 'react-icons/fa';
 
 const Projects = () => {
     const [calcDisplay, setCalcDisplay] = useState('0');
@@ -332,6 +332,52 @@ const Projects = () => {
                     </div>
                 </div>
 
+
+                {/* Project 7: E-Commerce Web Application */}
+                <div className="project-card">
+                    <div className="project-image flex flex-col items-center justify-center bg-gradient-to-br from-indigo-950 via-slate-900 to-sky-950 p-6 text-white text-center relative overflow-hidden">
+                        <div className="absolute -right-8 -top-8 w-32 h-32 bg-sky-500/10 rounded-full blur-2xl pointer-events-none"></div>
+                        <div className="w-16 h-16 rounded-2xl bg-sky-500/20 border border-sky-400/30 flex items-center justify-center text-3xl text-sky-400 mb-3 shadow-lg">
+                            <FaShoppingCart />
+                        </div>
+                        <h4 className="text-lg font-bold text-white tracking-wide">
+                            Modern E-Commerce Storefront
+                        </h4>
+                        <p className="text-xs text-slate-400 mt-1">
+                            Interactive Product Catalog & Cart Workflow
+                        </p>
+                    </div>
+                    <div className="project-info">
+                        <h3>E-Commerce Web Application</h3>
+                        <div className="project-tags">
+                            <span className="tag">React JS</span>
+                            <span className="tag">Vite</span>
+                            <span className="tag">Tailwind CSS</span>
+                            <span className="tag">Cart State Management</span>
+                        </div>
+                        <p>
+                            A modern online shopping storefront featuring responsive product catalog exploration, category browsing, cart mechanics, and seamless user interaction design.
+                        </p>
+                        <div className="project-links">
+                            <a
+                                href="https://github.com/Lakshmi-14082005/E-commerce-website"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="github-btn"
+                            >
+                                <FaGithub /> GitHub
+                            </a>
+                            <a
+                                href="https://lakshmi-14082005.github.io/E-commerce-website/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="demo-btn"
+                            >
+                                <FaExternalLinkAlt /> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     );

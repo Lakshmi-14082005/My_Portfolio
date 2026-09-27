@@ -1,56 +1,56 @@
 # Portfolio - Lakshmi Prasanna Thota
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live_Portfolio-0284c7?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lakshmi-14082005.github.io/My-Portfolio/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lakshmi-14082005/My_Portfolio)
-[![Cloud Preview](https://img.shields.io/badge/Preview-AI_Studio_App-10b981?style=for-the-badge&logo=google-cloud&logoColor=white)](https://ais-pre-kvsaglr7oiboklq5g6r7gw-837519493297.asia-east1.run.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-My__Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lakshmi-14082005/My_Portfolio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lakshmi_Prasanna_Thota-0077b5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lakshmi-prasanna-thota-88a28740b)
 
-> 🔗 **Live Demo Link:** [https://lakshmi-14082005.github.io/My-Portfolio/](https://lakshmi-14082005.github.io/My-Portfolio/)  
-> 🌐 **Cloud Deployment Link:** [https://ais-pre-kvsaglr7oiboklq5g6r7gw-837519493297.asia-east1.run.app](https://ais-pre-kvsaglr7oiboklq5g6r7gw-837519493297.asia-east1.run.app)
+> 💻 **Portfolio Source Code:** [https://github.com/Lakshmi-14082005/My_Portfolio](https://github.com/Lakshmi-14082005/My_Portfolio)  
+> 🌐 **GitHub Pages Target:** [https://lakshmi-14082005.github.io/My_Portfolio/](https://lakshmi-14082005.github.io/My_Portfolio/)
 
 A modern, responsive personal portfolio web application showcasing my journey as a FullStack Web Developer and Computer Science & Engineering student at **Mother Teresa Institute of Science and Technology (MIST)**.
 
 ---
 
-## 🌐 Live Application Demos & Repositories
+## 🌐 Verified Live Application Demos & Repositories
 
-All live demo links and interactive previews are listed below:
+Every live link below is verified and active:
 
 | Project | Live Demo Link | Source Code Repository |
 | :--- | :--- | :--- |
-| **My Portfolio (Full Showcase)** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/My-Portfolio/) | [GitHub Repository](https://github.com/Lakshmi-14082005/My_Portfolio) |
-| **LogicCode (Aptitude & Reasoning)** | [🌐 View Live Demo](https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app) | [GitHub Repository](https://github.com/Lakshmi-14082005/LogicCode_12) |
 | **Mist-Club (SAC Collegiate Network)** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/Mist-Club/) | [GitHub Repository](https://github.com/Lakshmi-14082005/Mist-Club) |
+| **LogicCode (Aptitude & Reasoning)** | [🌐 View Live Demo](https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app) | [GitHub Repository](https://github.com/Lakshmi-14082005/LogicCode_12) |
+| **E-Commerce Web Application** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/E-commerce-website/) | [GitHub Repository](https://github.com/Lakshmi-14082005/E-commerce-website) |
 | **NoTo - Student Notes & Material** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/NoTo-website/) | [GitHub Repository](https://github.com/Lakshmi-14082005/NoTo-website) |
 | **Student To-Do List Application** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/Student_To_Do_app/) | [GitHub Repository](https://github.com/Lakshmi-14082005/Student_To_Do_app) |
 | **Calculator App with React** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/Calculator-App-with-React/) | [GitHub Repository](https://github.com/Lakshmi-14082005/Calculator-App-with-React) |
-| **E-Commerce Web Application** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/E-commerce-website/) | [GitHub Repository](https://github.com/Lakshmi-14082005/E-commerce-website) |
-| **College Canteen Survey** | [📹 Interactive Video Demo](https://lakshmi-14082005.github.io/My-Portfolio/#/projects) | *Phase 1 Completed • Active Development* |
+| **Real-time Projects (Deep Learning / CNN)** | [🌐 View Live Demo](https://lakshmi-14082005.github.io/Real-time-Projects/) | [GitHub Repository](https://github.com/Lakshmi-14082005/Real-time-Projects) |
+| **College Canteen Survey** | *Phase 1 Completed • Active Development* | *Video Walkthrough in Portfolio* |
+| **My Portfolio Source Code** | [🌐 Repository Showcase](https://github.com/Lakshmi-14082005/My_Portfolio) | [GitHub Repository](https://github.com/Lakshmi-14082005/My_Portfolio) |
 
 ---
 
 ## ✨ Featured Projects
 
-### 1. My Portfolio
-- **Description:** Interactive single-page developer portfolio with dynamic project filtering, in-app resume viewer, education timeline, and responsive design.
-- **Tech Stack:** React 19, Vite, Tailwind CSS, React Router, React Icons
-- **Live Demo:** [https://lakshmi-14082005.github.io/My-Portfolio/](https://lakshmi-14082005.github.io/My-Portfolio/)
-- **Repository:** [https://github.com/Lakshmi-14082005/My_Portfolio](https://github.com/Lakshmi-14082005/My_Portfolio)
-
-### 2. LogicCode - Aptitude & Reasoning Mastery Platform
-- **Description:** A disciplined, minimalist EdTech platform designed for focused preparation. Sharpen problem-solving skills with timed practice drills, tiered difficulty levels, curated formula cheat sheets, and real-time performance analytics.
-- **Tech Stack:** React 19, TypeScript, Node.js, Express, Vite, Tailwind CSS, Motion, Lucide React
-- **Live Demo:** [https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app](https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app)
-- **Repository:** [https://github.com/Lakshmi-14082005/LogicCode_12](https://github.com/Lakshmi-14082005/LogicCode_12)
-
-### 3. Mist-Club
+### 1. Mist-Club
 - **Description:** A collegiate campus portal developed for Mother Teresa Institute of Science & Technology (MIST) students to coordinate club activities, technical workshops, hackathons, announcements, and peer collaboration.
 - **Tech Stack:** React 19, TypeScript, Vite, Tailwind CSS, Motion, Lucide Icons, SheetJS
 - **Live Demo:** [https://lakshmi-14082005.github.io/Mist-Club/](https://lakshmi-14082005.github.io/Mist-Club/)
 - **Repository:** [https://github.com/Lakshmi-14082005/Mist-Club](https://github.com/Lakshmi-14082005/Mist-Club)
 
+### 2. LogicCode - Aptitude & Reasoning Platform
+- **Description:** A disciplined, minimalist EdTech platform designed for focused preparation. Sharpen problem-solving skills with timed practice drills, tiered difficulty levels, curated formula cheat sheets, and real-time performance analytics.
+- **Tech Stack:** React 19, TypeScript, Node.js, Express, Vite, Tailwind CSS, Motion, Lucide React
+- **Live Demo:** [https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app](https://ais-pre-usx5wn7xpk7xrau2vdpcsk-837519493297.asia-east1.run.app)
+- **Repository:** [https://github.com/Lakshmi-14082005/LogicCode_12](https://github.com/Lakshmi-14082005/LogicCode_12)
+
+### 3. E-Commerce Web Application
+- **Description:** An interactive e-commerce shopping platform featuring product catalog browsing, cart management, and modern responsive UI.
+- **Tech Stack:** React JS, Vite, Tailwind CSS
+- **Live Demo:** [https://lakshmi-14082005.github.io/E-commerce-website/](https://lakshmi-14082005.github.io/E-commerce-website/)
+- **Repository:** [https://github.com/Lakshmi-14082005/E-commerce-website](https://github.com/Lakshmi-14082005/E-commerce-website)
+
 ### 4. NoTo - Student Notes & Resources
 - **Description:** A centralized resource hub providing college students with semester-wise lecture notes, previous question papers, and study reference materials.
-- **Tech Stack:** HTML5, CSS3, Responsive Web Design
+- **Tech Stack:** HTML5, CSS3, Responsive UI
 - **Live Demo:** [https://lakshmi-14082005.github.io/NoTo-website/](https://lakshmi-14082005.github.io/NoTo-website/)
 - **Repository:** [https://github.com/Lakshmi-14082005/NoTo-website](https://github.com/Lakshmi-14082005/NoTo-website)
 
@@ -67,10 +67,9 @@ All live demo links and interactive previews are listed below:
 - **Repository:** [https://github.com/Lakshmi-14082005/Calculator-App-with-React](https://github.com/Lakshmi-14082005/Calculator-App-with-React)
 
 ### 7. College Canteen Survey
-- **Description:** A comprehensive web application for gathering and analyzing real-time student dining feedback. Phase 1 delivers a secure, responsive authentication flow and onboarding UI.
+- **Description:** A web application for gathering and analyzing real-time student dining feedback. Phase 1 delivers a secure, responsive authentication flow and onboarding UI.
 - **Tech Stack:** React JS, Auth System, Frontend Logic
-- **Demo Walkthrough:** [View Video Demo on Portfolio Projects Page](https://lakshmi-14082005.github.io/My-Portfolio/#/projects)
-- **Status:** *Phase 1 Completed • Active Development*
+- **Status:** *Phase 1 Completed • Active Development (Video demo walkthrough embedded in Projects page)*
 
 ---
 

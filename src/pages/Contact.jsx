@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './contact.css';
 
 const Contact = () => {
@@ -20,9 +21,8 @@ const Contact = () => {
         <div className="contact-container">
             <h2 className="text-5xl contact-heading">Contact Me</h2>
             <p className="contact-subtitle">Let's connect! Feel free to reach out for opportunities, collaborations, or tech discussions.</p>
-
+            
             <div className="contact-layout">
-
                 <div className="contact-info-cards">
                     <a href="mailto:thotalakshmiprasanna1408@gmail.com" className="connect-card">
                         <div className="connect-icon">✉️</div>
@@ -51,18 +51,26 @@ const Contact = () => {
                     <a href="https://github.com/Lakshmi-14082005" target="_blank" rel="noopener noreferrer" className="connect-card">
                         <div className="connect-icon">🐙</div>
                         <div>
-                            <h3>GitHub</h3>
+                            <h3>GitHub Profile</h3>
                             <p>github.com/Lakshmi-14082005</p>
                         </div>
                     </a>
 
-                    <a href="https://lakshmi-14082005.github.io/My-Portfolio/" target="_blank" rel="noopener noreferrer" className="connect-card">
+                    <a href="https://github.com/Lakshmi-14082005/My_Portfolio" target="_blank" rel="noopener noreferrer" className="connect-card">
+                        <div className="connect-icon">💻</div>
+                        <div>
+                            <h3>Portfolio Repository</h3>
+                            <p>github.com/Lakshmi-14082005/My_Portfolio</p>
+                        </div>
+                    </a>
+
+                    <Link to="/" className="connect-card">
                         <div className="connect-icon">🌐</div>
                         <div>
                             <h3>Live Portfolio</h3>
-                            <p>lakshmi-14082005.github.io/My-Portfolio</p>
+                            <p>Explore Home & Interactive Showcase</p>
                         </div>
-                    </a>
+                    </Link>
                 </div>
 
                 <form className="contact-form" onSubmit={handleSubmit}>
@@ -72,6 +80,7 @@ const Contact = () => {
                             <span>Thank you for reaching out! Your message has been received and I'll get back to you soon.</span>
                         </div>
                     )}
+                    
                     <div className="form-group">
                         <label htmlFor="name">Name</label>
                         <input
@@ -84,6 +93,7 @@ const Contact = () => {
                             placeholder="Your Name"
                         />
                     </div>
+
                     <div className="form-group">
                         <label htmlFor="email">Email</label>
                         <input
@@ -96,6 +106,7 @@ const Contact = () => {
                             placeholder="Your Email"
                         />
                     </div>
+
                     <div className="form-group">
                         <label htmlFor="message">Message</label>
                         <textarea
@@ -108,6 +119,7 @@ const Contact = () => {
                             placeholder="Type your message here..."
                         ></textarea>
                     </div>
+
                     <button type="submit" className="submit-btn">Send Message 🚀</button>
                 </form>
             </div>
